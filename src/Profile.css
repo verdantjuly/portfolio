@@ -1,0 +1,27 @@
+#profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#profileDetail {
+  width: 700px;
+}
+
+#name {
+  border-bottom: 1px solid limegreen;
+  color: mediumseagreen;
+}
+
+#contact {
+  color: seagreen;
+}
+
+#myimage {
+  height: 300px;
+}
+
+#github,
+#tistory {
+  height: 40px;
+}
