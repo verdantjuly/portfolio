@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  background-color: seagreen;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+#navProfile,
+#navResmemory,
+#navSansampet {
+  font-size: 1rem;
+  color: white;
+  font-weight: 400;
+}
+#navProfile:hover,
+#navResmemory:hover,
+#navSansampet:hover {
+  font-size: 1rem;
+  font-weight: 900;
+  color: white;
+}

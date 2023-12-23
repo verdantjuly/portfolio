@@ -1,8 +1,9 @@
 import "./Profile.css";
-
+import Nav from "../components/Nav/Nav";
 function Profile() {
   return (
     <div>
+      <Nav />
       <div id="profile">
         <div id="profileBox">
           <img src="./image.png" alt="myimage.png" id="myimage" />
