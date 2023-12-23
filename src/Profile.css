@@ -5,11 +5,11 @@
 }
 
 #profileDetail {
-  width: 700px;
+  width: 40rem;
 }
 
 #name {
-  border-bottom: 1px solid limegreen;
+  border-bottom: 0.1rem solid limegreen;
   color: mediumseagreen;
 }
 
@@ -18,10 +18,31 @@
 }
 
 #myimage {
-  height: 300px;
+  height: 15rem;
 }
 
-#github,
+#github {
+  width: 4.5rem;
+}
+
 #tistory {
-  height: 40px;
+  width: 5.5rem;
+}
+
+#profileBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 11rem;
+}
+
+#directContact {
+  font-weight: 700;
 }
