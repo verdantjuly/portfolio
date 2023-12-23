@@ -1,30 +1,14 @@
 const root = document.getElementById("root");
-const Title = () => (
-  <h3
-    id="title"
-    onMouseEnter={() => {
-      console.log("mouse enter");
-    }}
-  >
-    "Hello I'm a span"
-  </h3>
-);
-
-const Button = () => (
-  <button
-    onClick={() => {
-      console.log("im clicked");
-    }}
-  >
-    {" "}
-    Click me
-  </button>
-);
-
-const Container = () => (
-  <div>
-    <Title />
-    <Button />
-  </div>
-);
-ReactDOM.render(<Container />, root);
+function App() {
+  const [counter, setCounter] = React.useState(0);
+  const onClick = () => {
+    setCounter(counter + 1);
+  };
+  return (
+    <div>
+      <h3>Total clicks : {counter}</h3>
+      <button onClick={onClick}>Click me</button>
+    </div>
+  );
+}
+ReactDOM.render(<App />, root);
